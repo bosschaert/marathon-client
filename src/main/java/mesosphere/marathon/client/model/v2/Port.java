@@ -8,10 +8,13 @@ public class Port {
 	private Integer servicePort;
 	private String protocol;
 
+	public Port() {
+	}
+
 	public Port(Integer containerPort) {
 		this.containerPort = containerPort;
 	}
-	
+
 	public Integer getContainerPort() {
 		return containerPort;
 	}
